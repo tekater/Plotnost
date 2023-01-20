@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Введите значение h (Высота): ");
         double h = scanner.nextDouble(); // высота (5.5)
         double p = d * g * h; // плотность
+        System.out.println("Плотность равна: ");
         System.out.println(p); // (91.63)
 
     }
